@@ -2,7 +2,7 @@
 this library.
 """
 import pandas as pd
-from ta import *
+from ta.ta.ta import *
 
 # Load data
 df = pd.read_csv('../data/datas.csv', sep=',')
